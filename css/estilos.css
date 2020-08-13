@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+/*--------------------------------- LINKS -------------------------------*/
+a:link{ /*quando o link ainda não foi visitado:*/
+    color: Thistle;
+    text-decoration: none;
+}
+a:visited{ /*quando o link foi visitado:*/
+    color: rgb(206, 60, 109);
+}
+a:hover{ /*mudanças que vão acontecer quando o mouse passar por cima da palavra da caixa de menu*/
+    text-decoration: underline; /*a palavra ficará sublinhada*/
+    color: LightBlue;
+    font-size: 1.2em;
+}
+a:active{ /*muda a cor do link quando mantém clicado no item*/
+    color: CornflowerBlue;
+}
+
+/*--------------------------------- INDEX -------------------------------*/
+/************imagem de fundo do index************/
+.bodyindex{ 
+    background: url("../img/ceuhello.jpg") no-repeat;
+    background-size: 100% auto;   
+}
+/************menu do index************/
+.menu{
+    background-color: rgba(255, 255, 255, 0.781);
+    width: 70vw center; /*largura da caixa*/
+    height: 50px;
+    margin: 20px;
+    top:50px; /*"colar" a caixa de menu no topo da página*/
+    border-style: solid;
+    border-color: pink; /*cor da borda*/
+    align-items: center;
+}
+/************menu2 do index************/
+.menu ul{
+    display: flex; /*o flex faz com que os itens da lista da caixa de menu fique um do lado do outro*/
+    justify-content: space-around; /*faz com que os itens da lista da caixa de menu fiquem com um espaço entre o outro*/
+    font-size: 30px;
+    color: pink; /*cor da bolinha*/
+}
+/************rodapé************/
+.rodape{
+    padding-left: 50px;
+    padding-bottom: 80px;
+    padding-top: 28px;
+    font-family: 'Faustina', serif;
+    -webkit-text-stroke-width: 0.02px;
+    -webkit-text-stroke-color: rgb(72, 30, 73);
+    font-size: 25px;
+    color: Thistle;
+    background-image: url("../img/nuvem2.png"); 
+    background-size: 113% ;
+    max-width: 235px;  
+}
+
+/*--------------------------------- SOBRE -------------------------------*/
+/************************/
+.principal{
+    margin-top: 50px;
+    padding-bottom: 100px;    
+}
+/******* background *******/
+.bodypaginasobre{ 
+    background-color: #9e8c94;  
+}
+/************ cabeçalho ************/
+.cabecalhosobre{ 
+    font-family: 'Faustina', serif;
+    padding-top: 15px;
+    font-size: 25px;
+    justify-content: space-around;
+    display: flex;
+    color: pink;
+    background-color: rgba(255, 255, 255, 0.781);
+}
+/************ Sobre ************/
+.titulosobre{
+    padding-left: 30px;
+    padding-bottom: 5px;;
+    font-family: 'Faustina', serif;
+    font-size: 50px;
+    color: pink;
+}
+/******* texto sobre *******/
+.sobre{
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Faustina', serif;
+    font-size: 20px;
+    color: white;
+}
+#imagemsobre{
+    float: left;
+    max-width: 480px;
+    width: auto;
+    height: auto;
+    padding-right: 30px;
+}
+
+/*--------------------------------- PORTIFOLIO -------------------------------*/
+/******* background *******/
+.bodypaginaport{ 
+    background-color: #9e8c94;  
+}
+/************ cabeçalho ************/
+.cabecalhoport{ 
+    font-family: 'Faustina', serif;
+    padding-top: 15px;
+    font-size: 25px;
+    justify-content: space-around;
+    display: flex;
+    color: pink;
+    background-color: rgba(255, 255, 255, 0.781);
+}
+/************ Portfolio ************/
+.tituloport{
+    padding-left: 30px;
+    padding-bottom: 5px;;
+    font-family: 'Faustina', serif;
+    font-size: 40px;
+    color: pink;
+}
+/************ projetos titulo ************/
+.tituloprojetos{
+    padding-top: 8px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    font-family: 'Faustina', serif;
+    font-size: 25px;
+    color: rgb(247, 220, 224);
+}
+/************ projetos ************/
+.portfolio{
+    padding-left: 30px;
+    padding-right: 30px;
+    
+    font-family: 'Faustina', serif;
+    font-size: 20px;
+    color: white;
+}
+#imagemport{
+    float: left;
+    width: auto;
+    height: auto;
+    padding-left: 30px;
+}
+
+/*--------------------------------- CONTATO -------------------------------*/
+/******* background *******/
+.bodypaginacontato{ 
+    background-color: #9e8c94;  
+}
+/************ cabeçalho ************/
+.cabecalhocontato{ 
+    font-family: 'Faustina', serif;
+    padding-top: 15px;
+    font-size: 25px;
+    justify-content: space-around;
+    display: flex;
+    color: pink;
+    background-color: rgba(255, 255, 255, 0.781);
+}
+/************ Contato ************/
+.titulocontato{
+    padding-left: 30px;
+    padding-bottom: 10px;
+    font-family: 'Faustina', serif;
+    font-size: 40px;
+    color: pink;
+}
+.contato{
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Faustina', serif;
+    font-size: 20px;
+    color: white;
+}
+#imagememail{
+    float: left;
+    width: 50px;
+    height: 50px;
+    padding-left: 5px;
+    padding-bottom: 5px;   
+}
+#imagemgit{
+    float: left;
+    width: 50px;
+    height: 50px;
+    padding-left: 5px;
+    padding-bottom: 5px;   
+}
+#imagemlinkedin{
+    float: left;
+    width: 50px;
+    height: 50px;
+    padding-left: 5px;
+    padding-bottom: 5px;   
+}
